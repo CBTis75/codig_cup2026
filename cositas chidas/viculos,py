@@ -1,0 +1,6 @@
+numero = input().strip()
+
+gustan = numero.count('7') + numero.count('3')
+odia = numero.count('0')
+
+print(gustan, odia)
